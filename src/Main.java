@@ -74,7 +74,7 @@ public class Main {
 
         for (int day = 1; day <= 31; day++ ){
             if ((day == friday) || (day == friday + 7) || (day == friday + 14) || (day == friday + 21)) {
-                System.out.println( "Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет."  );
+                System.out.println( "Сегодня пятница, " + day + "-е число месяца. Необходимо подготовить отчет."  );
             }
         }
 
